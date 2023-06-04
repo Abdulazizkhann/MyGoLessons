@@ -1,21 +1,34 @@
-package main    // IF; ELSE;ELSE IF
+package main   
 
 import "fmt"
 
 func main() {
 
-	var A int
-	var B int 
-	fmt.Println("Enter the first number")
-	fmt.Scanln(&A)
-	fmt.Println("Enter the second number")
-	fmt.Scanln(&B)
+	l := ""
+	fmt.Print("nachanchi snif ekanligigizni kiriting: ")
+	fmt.Scanf("%s", &l)
 
-	if A > B { 
-		fmt.Println("A big number!")
-	}else if A == B{ 
-		fmt.Println("Both of them epual!")
-	}else{
-		fmt.Println("B big number!")
+	if "Behruz" == l {
+		fmt.Println("man 7 snif man")
+	}else if "Izzat" == l {
+		fmt.Println("man 4 sinf man")
+	}else if "Shohjaxon" == l {
+		fmt.Println("man 1 sinf man")
+	}else if "Nodir" == l {
+	       fmt.Println("man 11 sinf man")
+	}else if "Ulug'bek" == l {
+		fmt.Println("man 6 sinf man")
+	}else if "Malika" == l {
+		fmt.Println("man 5 sinf man")
+	}else if "Muslima" == l {
+		fmt.Println("man 2 sinf man")
+	}else if "Dilnoza" == l {
+		fmt.Println("man 3 sinf man")
+	}else if "Abdulaziz" == l {
+		fmt.Println("man 8 sinf man")
+	}else if "Asad" == l {
+		fmt.Println("man 9 sinf man")
+    }else if "Jamshid" == l {
+		fmt.Println("man 10 sinf man")
 	}
-}
+}	
