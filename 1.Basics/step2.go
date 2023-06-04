@@ -20,7 +20,7 @@ println(name)
 	 println(Name)
 
 	 var myName string = "Alixan" // CamelClas --> yozish etikasi
-	 println(Name)
+	 println(myName)
 
 	 var _a string = "A"
 	 println(_a)

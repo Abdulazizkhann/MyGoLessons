@@ -22,5 +22,5 @@ func main() {
 	println(int(w))       // --> 22
 
 	b := -45.6
-	println(uinit(b))
+	println(uinit(b))     // --> 18446744073709551571
 }
